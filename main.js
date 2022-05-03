@@ -10,18 +10,24 @@ for (let i = 1; i <= 100; i++){
         element.innerText = "FizzBuzz";
         element.classList.add("red");
         container.append(element);
+        console.log("FizzBuzz");
 
     } else if(i % 5 === 0){
         element.innerText = "Buzz";
         element.classList.add("yellow")
         container.append(element);
+        console.log("Buzz");
     } else if(i % 3 === 0){
         element.innerText = "Fizz";
         element.classList.add("green")
         container.append(element);
+        console.log("Fizz");
     } else {
         element.innerText = i;
         element.classList.add("blue")
         container.append(element);
+        console.log(i);
     }
 }
+
+
