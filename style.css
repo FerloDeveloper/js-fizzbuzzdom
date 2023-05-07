@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 
-.container{
+.container {
     width: 80vw;
     margin: auto;
     display: flex;
@@ -25,31 +25,31 @@ h1 {
     margin-bottom: 30px;
 }
 
-
-.box{
+.box {
     width: calc(80vw / 7 - 10px);
     height: calc(80vw / 7 - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
 /* COLORS */
 
-.yellow{
+.yellow {
     background-color: #ffd166;
 }
 
-.green{
+.green {
     background-color: #0bd6a1;
 }
 
-.blue{
+.blue {
     background-color: #1389b2;
 }
 
-.red{
+.red {
     background-color: #f0466f;
 }
